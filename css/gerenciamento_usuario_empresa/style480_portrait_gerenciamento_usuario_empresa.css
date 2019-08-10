@@ -1,0 +1,143 @@
+div#container{
+    min-width: 320px
+}
+section{
+    width: var(--larguraTotal);
+}
+
+/* cabecalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 100vw;
+    height: 70px;
+}
+header hr{
+   width: 17vw;
+   border: 3px solid orangered;
+}
+/* menu principal */
+
+#menu-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+    height: 15vw;
+    background-color:#F67310;
+    font-size: 1.0rem;
+    z-index: 2;
+  
+  }
+  
+  #logo{
+    padding:4vw 5vw 0 5vw;
+    border-radius:50%;
+    background-color:#F67310;
+    margin-bottom: 6vw;
+  }
+  .icones img{
+    width: 10vw;
+    height: 10vw
+  }
+  #logo img{
+    width: 38vw;
+    height: 13.5vw;
+  }
+
+/* subtitulo */
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 100vw;
+    background-color: orange;
+}
+
+.subtitulo h2{
+    font-size: 1.3rem;
+}
+/* a barra de pesquisa */
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+}
+
+form input[type="search"]{
+    width: 70%;
+    height: 12vw;
+    border: none;
+    border-bottom: 2px solid orange;
+    text-align: center;
+ 
+}
+form input[type="submit"]{
+    width: 20%;
+    height: 12vw;
+    background-color: #F67310;
+    color: #fff;
+    border: none;
+    border-radius: 12vw;
+}
+
+
+
+/*  table */
+
+table{
+    width: 100vw;
+}
+
+
+table, th, td {
+    border-bottom: 1px solid #F67310;
+    border-collapse: collapse;
+  font-size:3.5vw;
+}
+td{ 
+    text-align: center;
+    font-size: 4vw;
+    height: 12vw;
+}
+tr td:nth-child(3) a{
+    width: 15vw;
+    height: 8vw;
+    word-break: break-word;
+}
+tr td:nth-child(1), tr td:nth-child(4){
+    width: 2.5vw;
+}
+
+th{
+    font-size: 4.2vw;
+    height: 12vw;
+    background-color: #F67310;
+}
+table{
+    margin-bottom: 25vw;
+}
+td img{
+    width: 4.2vw;
+    height: 4.2vw;
+}
+tr td:nth-child(5), tr td:nth-child(6){
+   display: flex;
+   align-items: center;
+   width: 5vw;
+   border:none;
+}
+#borda{
+    border-top: #F67310 1px solid;
+}
+#um{
+    border:none
+}

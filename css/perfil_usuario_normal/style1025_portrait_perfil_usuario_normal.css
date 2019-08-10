@@ -1,0 +1,36 @@
+div#container{width: 100%;}
+#mobile{display: none;}
+#desktop{width: 100%}
+/* menu */
+#segundo-menu-principal{display: flex;justify-content: space-around;align-items: center;position: fixed;top:0;width: 100%;height: 5vw;color: #fff;background-color:#F67310;font-size: 1.0rem;z-index: 2;}
+#segundo-menu-principal a{color: white;font-size: 1.2vw;font-family: dois;}
+#segundo-menu-principal a:nth-child(1){margin-left: 12%;}
+#lupa{margin-left: -4%;}
+#logo{padding:0 4vw 1.5vw 4vw;border-radius:50%;background-color:#F67310;margin-top: 5vw;}
+.icones img{width: 2vw;height: 2vw}
+#logo img{width: 13vw;height: 5vw;}
+  /* fundo e imagem usuario */
+#fundo-perfil{position: relative;display: flex;justify-content: flex-start;align-items: flex-end;width: 100%;height: 45vh;background-color: #faeac1}
+.icone-usuario{position: relative;display: flex;justify-content: flex-start;align-items: flex-end;width: 55vw;height: 45vh;margin-left: 5vw;}
+.icone-usuario img{width: 15vw;height: 15vw;border-radius: 7.5vw;border:2px solid #faeac1;margin-bottom: -5vw;}
+figcaption{margin-left: 2vw;font-size: 1.8vw;}
+/* configuracao */
+#configuracao{position: absolute;top: 12vh;left: 2vw;}
+#configuracao img{width: 3.5vw;height: 3.5vw;}
+/* gerenciamento */
+#gerenciamento{position: absolute;bottom: 2vw;right: 2vw;padding: 1.5vw 3vw;background-color: orange;border-radius: 2vw;color:#fff;}
+/* sair */
+#sair{position: absolute;top:12vh;right: 3vw;font-size: 2vw;text-transform: uppercase;}
+/* titulo favoritos  */
+.titulo-favoritos{display: flex;flex-direction: column;justify-content: center;align-items: center;width: 100%;height: 12vh;margin-top: 12vh;font-size: 1.9vw;}
+.titulo-favoritos  hr{width: 4vw;border: 2px solid orange}
+/* favoritos */
+#opcoes{display: flex;justify-content: space-around;align-items: center;flex-direction: column;margin-top: 2vw;width: 100%;}
+.restaurante {display: flex;position: relative;flex-direction: column;flex-wrap: wrap;justify-content: flex-start;margin: 10px auto;width: 49vw;height: 11vw;border: 1px solid #F67310;padding: 1.5vw}
+.restaurante:last-child{margin-bottom: 20vw;}
+picture{width: 35vw;height: 35vw;}
+picture  img{width: 12vw;height: 10vw;}
+address{width: 19vw;height: 0vw;margin-top: 3vw;word-wrap: break-word;font-size: 1vw}
+.favoritar img{position: absolute;top: 1vw;right: 1vw;width: 4vw;height: 4vw;float: right;}
+.restaurante h2{width: 15vw;overflow-wrap: break-word;}
+figcaption,address,h2,a{font-family: 'raleway-normal';}

@@ -1,0 +1,114 @@
+
+section{
+    width: 100vw;
+    height: 40vw;
+ 
+}
+/* cabecalho */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 13vw;
+}
+
+header a img {
+    width: 15vw;
+    height: 5vw;
+}   
+
+header .fechar{
+    position: absolute;
+    top: 2vw;
+    right: 2vw;
+    font-weight: bolder;
+  
+}
+
+.fechar img{
+    width: 3vw;
+    height: 3vw
+}
+
+
+/* titulo principal */
+
+.titulo-principal-login{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100%;
+ 
+}
+.titulo-principal-login h1{
+    font-size: 3vw;
+}
+.titulo-principal-login hr {
+    width: 38vw;
+    border: 3px solid #696969;
+}
+/* formulario */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 32vw;
+}
+
+input[type="email"],input[type="password"]{
+    text-align: center;
+    font-size: 1.5vw;
+    background: none;
+    border:none;
+    border-bottom:3px solid orange;
+    width: 26vw;
+    height: 5vw;
+    padding-bottom:-5px;
+    margin: 3vw 0;
+}
+
+
+input::placeholder{
+    color:orange;
+}
+input[type="submit"]{
+    width: 12vw;
+    height: 7vw;
+    border: none;
+    border-radius: 6vw;
+    background-color: orange;
+}
+
+/* campo esqueceu a senha */ 
+
+#esqueceu-senha{
+    display: flex;
+    justify-content: flex-end;
+    width: 28%;
+    height: 3vw;
+
+}
+/* mensagens de erro */
+
+
+#msg-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65vw;
+    height: 17vw;
+    background-color: #ffffff; 
+    text-transform: uppercase;
+    color: rgb(255, 14, 14);
+    margin: 2vw auto
+}
+
+
+
+

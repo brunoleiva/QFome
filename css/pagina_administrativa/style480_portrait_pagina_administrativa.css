@@ -1,0 +1,159 @@
+div#container{
+    min-width: 320px
+}
+
+
+section{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100vw;
+     margin-bottom: 17vh;
+
+}
+h1{
+    font-family: 'raleway-normal';
+}
+ header{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 80px;
+ }
+
+ #menu-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+    height: 15vw;
+    background-color:#F67310;
+    font-size: 1.0rem;
+    z-index: 2;
+  
+  }
+  
+  #logo{
+    padding:4vw 5vw 0 5vw;
+    border-radius:50%;
+    background-color:#F67310;
+    margin-bottom: 6vw;
+  }
+  .icones img{
+    width: 10vw;
+    height: 10vw
+  }
+  #logo img{
+    width: 38vw;
+    height: 13.5vw;
+  }
+
+ article{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 50px;
+     width: 45vw;
+     
+     border-radius: 8px;
+     background-color: #333300;
+     margin-bottom: 5vh;
+ }
+
+ article figure{
+     width: 25px;
+     height: 22px;
+ }
+
+ article figure img{
+     width: 100%;
+     height: 100%;
+ }
+
+ article a {
+     color: white;
+ }
+
+
+ .titulo-formulario{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 60px;
+     background-color: orange;
+     font-size: 65%;
+
+ }
+
+ .titulo-formulario span{
+     font-weight: bolder;
+ }
+
+ form{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     flex-direction: column;
+     width: 80vw;
+     height: 250px;
+     border: 1px solid orange;
+     margin-bottom: 15vh;  
+ }
+
+form label{
+    padding: 5vw;
+    border-radius: 17px;
+    font-size: 4vw;
+    background-color: orange;
+    margin: 5vw;
+
+}
+form input[type="file"]{
+    display: none
+}
+
+ input[type="text"],input[type="password"]{
+     width: 80%;
+     height: 26px;
+     border: none;
+     border-bottom: 1px solid #000;
+     margin: 15px;
+     text-align: center;
+ }
+
+ input[type="submit"]{
+     border: none;
+     background-color: #F67310;
+     border-radius: 12px;
+     margin-bottom: -5vw;
+     width: 30vw;
+     height: 50px;
+ }
+
+ .usuarios{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     width: 80%;
+     height: 170px;
+ }
+
+ .usuarios hr{
+     width: 60%;
+     border: 1px solid orange;
+     margin-bottom: 2vw;
+ }
+
+ .usuarios a {
+     padding: 15px;
+     border-radius: 8px;
+     background-color: orange;
+ }
+
+ .usuarios span{
+     font-weight: bolder;
+ }

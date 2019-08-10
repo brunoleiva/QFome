@@ -1,0 +1,174 @@
+#mobile,#secao-dois{
+    display: none;
+}
+#desktop{
+  width: 100%;
+} 
+#segunda-secao-desktop{
+  position: relative;
+  width: 100%;
+  height:  100vh;
+  background-color: white;
+} 
+
+#destaques{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* menu */
+#segundo-menu-principal{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 5vw;
+  color: #ffffff;
+  background-color:#F67310;
+  font-size: 1.0rem;
+  z-index: 2;
+}
+
+#segundo-menu-principal a{
+  color: white;
+  font-size: 1.2vw;
+  font-family: dois;
+
+}
+#segundo-menu-principal a:nth-child(1){
+  margin-left: 12%;
+
+}
+
+#lupa{
+margin-left: -4%;
+}
+#logo{
+  padding:0 4vw 1.5vw 4vw;
+  border-radius:50%;
+  background-color:#F67310;
+  margin-top: 5vw;
+  
+}
+.icones img{
+  width: 2vw;
+  height: 2vw
+}
+#logo img{
+  width: 13vw;
+  height: 5vw;
+}
+
+/* categorias */
+
+#opcoes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8vw;
+  width: 100%;
+  height: 84vh;
+  
+}
+#titulo-categorias{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25%;
+  height: 5vw;
+}
+#titulo-categorias h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2vw;
+  font-family: 'raleway-normal';
+}
+#titulo-categorias  hr{
+  width: 5vw;
+  border: 1px solid #F67310;
+}
+#titulo-categorias-dois{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5vw;
+  font-family: 'raleway-normal';
+
+}
+#categoria{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width:  70%;
+  height: 28vw;
+}
+.item-categoria img{
+  width: 12vw;
+  height: 12vw;
+}
+.item-categoria figcaption{
+text-align: center; 
+font-family: 'raleway-normal';
+  
+}
+
+
+/* destaques */
+.cidades-destaques{
+  position: relative;
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 48%;
+  height: 1vw;
+  height: 13vw;
+}
+.cidades-destaques:nth-child(3){
+  flex-wrap: wrap-reverse;
+}
+
+
+.cidades-destaques picture img{
+  width: 10vw;
+  height: 10vw;
+  margin-top: 1.4vw;
+}
+.titulo-restaurante{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  height: 4vw;
+  background-color: #ffe2ad;
+  margin-top: 1.5vw;
+}
+.cidades-destaques p{
+  width: 30vw;
+  word-break: break-word;
+  margin-top: 1vw;
+  height: 5vw;
+}
+.cidades-destaques:nth-child(3) p{
+  width: 30vw;
+  word-break: break-word;
+  margin-top: 1vw;
+  height: 5vw;
+}
+.cidades-destaques span{
+  position: absolute;
+  left: 0;
+  top: 1.3vw;
+  font-size: 2.3vw;
+}
+
+

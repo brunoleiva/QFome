@@ -1,0 +1,303 @@
+div#container{
+    min-width: 320px
+}
+
+section:nth-child(1){
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+
+section:nth-child(2){
+    width: 100vw;
+    height: 160vh;
+ 
+
+}
+/* cabecalho */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+ 
+}
+header h1{
+  font-size: 2rem;
+}
+header hr{
+    width: 25vw;
+    border: 4px solid #F4BE14;
+}
+/* menu */
+
+
+#menu-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+    height: 15vw;
+    background-color:#F67310;
+    font-size: 1.0rem;
+    z-index: 2;
+  
+  }
+  
+  #logo{
+    padding:4vw 5vw 0 5vw;
+    border-radius:50%;
+    background-color:#F67310;
+    margin-bottom: 6vw;
+  }
+  .icones img{
+    width: 10vw;
+    height: 10vw
+  }
+  #logo img{
+    width: 38vw;
+    height: 13.5vw;
+  }
+
+/* subtitulo */
+
+.subtitulo{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 7vh;
+}
+
+.subtitulo figure img{
+    width: 10vw;
+}
+
+/* produto principal */
+
+#produto-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50vh;
+
+}
+.slide-imagens{
+    position: relative;
+    width: 80vw;
+    height: 40vh;
+    
+}
+.fotos{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     opacity: 0;
+    animation: muda 20s infinite;
+}
+@keyframes muda{
+    25%{
+        opacity: 1;
+    }
+    
+    50%{
+        opacity: 0;
+    }
+}
+ 
+.fotos:nth-child(2){
+    animation-delay:5s;
+}
+.fotos:nth-child(3){
+    animation-delay: 10s;
+}
+.fotos:nth-child(4){
+    animation-delay: 15s;
+}
+
+/* detalhes do produto */
+
+.detalhes-produto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 22vh;
+    margin-top: -4vh;
+    
+}
+
+.detalhes-produto p{
+    text-align: center;
+}
+
+.detalhes-produto hr{
+    width: 75vw;
+    border: 2px solid #F4BE14;
+}
+.detalhes-produto span{
+    color: #F67310;
+}
+
+/* mapa */
+.mapa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 52vh;
+
+}
+.mapa h2{
+    font-size: 2.0rem
+}
+.mapa iframe{
+    width: 83%;
+    height: 320px;
+}
+
+/* comentario */
+
+.comentario{
+    width: 83vw;
+    height: 40vh;
+    margin-left: 8vw;
+    margin-bottom: 15vh;
+}
+
+.comentario hr{
+    width: 65%;
+    border: 3px solid #F4BE14;
+    margin-top: 1.8vh;
+}
+.comentario form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 1.2vh;
+}
+.comentario form textarea{
+   height: 75%;
+ 
+    
+    
+}
+.comentario form input{
+    position: absolute;
+    width: 25vw;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    right: 0;
+    bottom: 0;
+    background-color: #F4BE14;
+    text-transform: uppercase;
+}
+
+/* postagem */
+
+.postagem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 68vw;
+    height: 15vh;
+    margin-left: 8vw;
+
+
+}
+
+.postagem img {
+    border-radius: 50%;
+    width: 20vw;
+    height: 12vh;
+
+}
+.postagem p {
+    text-align: center;
+    font-size: .8rem;        
+    z-index: -1;
+    width: 63vw;
+    height: 8vh;
+    border: 1px solid  #F4BE14;
+   
+}   
+
+/* modal */
+
+.modal{
+    position: fixed;
+    display: none;
+    z-index: 2;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.5);
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    margin-left: 3vw;
+    top: 20vh;
+    width: 95vw;
+    height: 47vh; 
+    background-color: #F97310;
+    border-radius: 7px;
+    animation: transicao 1s ease-out;
+}
+
+@keyframes transicao{
+    from{
+        top: -45vh;
+     
+       }
+   to{
+      top: 20vh;
+    
+   }
+
+}
+
+.modal textarea{
+        width: 87vw;
+        height: 25vh;
+        margin: 12px;
+       
+}
+
+.modal  span{
+    font-size: 1.5rem;
+  align-self: flex-end;
+margin:8px 9px 0 0 ;
+font-weight: bolder;
+}
+
+.modal input[type="submit"]{
+    margin: 18px 0 15px 70vw;
+    border: 0;
+    background: none;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+}
+.modal h2{
+  font-size: 1rem;
+  margin-top: -15px;
+
+}
+

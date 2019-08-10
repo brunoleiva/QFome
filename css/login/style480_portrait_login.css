@@ -1,0 +1,117 @@
+div#container{
+    min-width: 320px
+}
+section{
+    width: 100vw;
+    height: 180vw;
+ 
+}
+/* cabecalho */
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+header a img {
+    width: 170px;
+    height: 60px;
+}   
+
+header .fechar{
+    position: absolute;
+    top: 1vw;
+    right: 5vw;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.fechar img{
+    width: 7vw;
+    height: 7vw
+}
+
+
+/* titulo principal */
+
+.titulo-principal-login{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+}
+.titulo-principal-login h1{
+    font-size: 2.5rem;
+    font-family: 'raleway-normal';
+    color: #F67310;
+}
+.titulo-principal-login hr {
+    width: 30vw;
+    border: 3px solid #F67310;
+}
+/* formulario */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 106vw;
+}
+
+input[type="email"],input[type="password"]{
+    text-align: center;
+    font-size: 1.2rem;
+    background: none;
+    border:none;
+    border-bottom:3px solid black;
+    width: 62vw;
+    height: 15vw;
+    padding-top:18px;
+}
+
+
+input::placeholder{
+    color:black;
+}
+input[type="submit"]{
+    width: 40vw;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background-color: #F67310;
+}
+
+/* campo esqueceu a senha */ 
+
+#esqueceu-senha{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    height: 2vw;
+
+}
+/* mensagens de erro */
+
+
+#msg-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65vw;
+    height: 17vw;
+    background-color: #ffffff; 
+    text-transform: uppercase;
+    color: rgb(255, 14, 14);
+    margin: 2vw auto
+}
+
+
+
+

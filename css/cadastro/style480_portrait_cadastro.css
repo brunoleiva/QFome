@@ -1,0 +1,245 @@
+div#container{
+    min-width: 320px
+}
+body{
+    overflow-x: hidden;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.quadrado-atras{
+    position: absolute;
+    z-index: -2;
+    border: 1px solid  orange;
+    width: 88%;
+    height: 210vw;
+    left: 5vw;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vw;
+    background-color: #F67310;
+}
+header picture a img{
+    width: 22vw;
+    height: 8vw;   
+    margin-left: 2vw;
+}
+#cadastro-usuario-empresa{
+    display: none;
+}
+header a {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: 5px;
+}
+#muda-usuario{
+    display: flex;
+    justify-content: center;
+}
+.titulo-principal-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--larguraTotal);
+    height: 19vw;   
+    font-family: 'raleway-normal';               
+}
+.titulo-principal-cadastro h1{ 
+    font-family: 'raleway-normal';               
+}
+#muda-usuario a{
+    font-size: .9rem;
+    padding:4vw 2.5vw;
+    border:1px solid orange;
+    border-radius: 5px;
+    background-color:orange;
+    color: white;
+    margin:0 15px 0 15px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    width: 100%;
+    height: 120vw
+}
+form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+#btn-normal{
+    margin-top: 15vw;
+}
+
+form fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    width: 80vw;
+    height: 150vw;
+    position: absolute;
+    margin-top:20vw;
+
+}
+form fieldset:not(:first-of-type){
+    display: none;
+}
+
+
+input[type="text"],input[type="password"],input[type="email"]{
+    margin: 2vw  8vw;
+    height: 12vw;
+    width: 60vw;
+    text-align: center;
+    font-size: .9rem;
+    border:0;
+    border-bottom: .2px solid black;
+    background:none;
+    outline: none;
+}
+
+
+
+
+input[type="submit"],input[type="button"]{
+    width: 35vw;
+    height: 12vw;
+    font-size: .8rem;
+    border: none;
+    text-transform: uppercase;
+    background-color: #F67310;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+  
+}
+
+.proximo,.cadastrar{
+    position: absolute;
+  bottom: 5vw;
+    right: 2vw;
+        
+   
+}
+.numero-um{
+    position: absolute;
+    bottom: 32vw;
+    left: 8vw;
+}
+.anterior{
+    position: absolute;
+    bottom: 5vw;
+    left: 1vw
+}
+.ant-um{
+    margin-bottom: -9vw;
+    margin-left: -7vw;
+}
+.cad-um{
+    margin-bottom: -9vw;
+    margin-right: -7vw;
+}
+
+fieldset:nth-child(3) input[type="text"]{
+    height: 5vw;
+    margin :12px auto;
+}
+fieldset:nth-child(3) label {
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+    width: 35vw;
+    height: 8vw;
+    margin-left: 23vw;
+    background-color: #2F2D2E;
+    color: #ffffff;
+    border-radius: 15px;
+}
+fieldset:nth-child(3) label:nth-child(1){
+    width: 35vw;
+    height: 35vw;
+    border-radius: 50%;
+    background: none;
+    margin-bottom: 8vw;
+}
+fieldset:nth-child(3) label:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+
+fieldset:last-child{
+  display: flex;
+  width: 60vw;
+}
+fieldset:last-child input[type="checkbox"],input[type='file']{
+  display: none;
+}
+fieldset:last-child label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2vw;
+  width: 29vw;
+  height: 20vw;
+ }
+input:checked + label {
+    background-color: orange;
+}
+.muda-tudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    height: 100vw;
+    margin-bottom: 5vw;
+}
+/* mensagens de erro */
+
+#msg-um,#msg-login-existente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 65vw;
+    height: 17vw;
+    background-color: #ffffff; 
+    text-transform: uppercase;
+    color: rgb(255, 14, 14);
+    margin: 2vw auto
+}
+
+#msg-login-existente{
+ margin-top: 15vw;
+}
+
+#titulo-categorias{
+    text-align: center;
+}
+input[type="submit"],input[type="button"]:hover {
+    background-color: #F67310
+}
+img{
+    width: 15vw;
+    height: 15vw;
+}
+
+#fechar img{
+    width: 5vw;
+    height: 5vw;
+}
+
+

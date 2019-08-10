@@ -1,0 +1,97 @@
+div#container{
+    min-width: 320px
+}
+
+section:nth-child(1){
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 115vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 14vh;
+}
+
+#menu-principal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
+    height: 15vw;
+    background-color:#F67310;
+    font-size: 1.0rem;
+    z-index: 2;
+  
+  }
+  
+  #logo{
+    padding:4vw 5vw 0 5vw;
+    border-radius:50%;
+    background-color:#F67310;
+    margin-bottom: 6vw;
+  }
+  .icones img{
+    width: 10vw;
+    height: 10vw
+  }
+  #logo img{
+    width: 38vw;
+    height: 13.5vw;
+  }
+.restaurante{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 12px;
+    width: 85vw;
+    height: 20vh;
+    border: 1px solid #F67310;
+    padding: 12px;
+    }
+    picture{
+    width: 32vw;
+    height: 20vh;
+    background-color: blue;  
+    }
+    picture  a img{
+    width: 100%;
+    height: 100%;
+    }
+    address{
+       width: 50vw;
+       height: 13vh;
+       word-wrap: break-word;
+    }
+    
+    #posicao{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 180%;
+        bottom: 0;
+        right: 0;
+        width: 12vw;
+        height: 12vw;
+        background-color: #F67310;
+        float: right;
+    }
+    #selecionar{
+        height: 20px;
+        width: 100px;
+    }
+    .restaurante h2{
+     font-size: 1.2rem;   
+    }

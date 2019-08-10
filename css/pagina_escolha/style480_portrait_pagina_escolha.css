@@ -1,0 +1,58 @@
+div#container{
+  min-width: 320px
+}
+
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 160vw
+}
+ .botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 12vh;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  border: 1px solid #F67310;
+  color:#F67310
+
+}
+
+.botoes:hover{
+  color: white;
+  background-color: orange;
+
+}
+#close{
+  position:absolute;
+  top: 5vw;
+  right: 5vw;
+  color:orange;
+  font-size:3rem;
+  font-weight: bolder;
+
+
+}
+a img {
+  width: 55vw;
+  height: 20vw;  
+  margin-bottom: 4vw
+}
+
+#close img{
+  width: 10vw;
+  height: 10vw;
+}
+
+hr{
+  width:   75vw;
+  border: 3px solid #F67310; 
+  margin:35px;
+}

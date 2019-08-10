@@ -1,0 +1,55 @@
+  
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vw
+  }
+   .botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vw;
+    height: 8vw;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid orange;
+    color:orange;
+    font-size:1.2vw;
+  
+  }
+  
+  .botoes:hover{
+    color: white;
+    background-color: orange;
+  
+  }
+  #close{
+    position:absolute;
+    top: 3vw;
+    right: 3vw;
+    color:orange;
+    font-size:3rem;
+    font-weight: bolder;
+  
+  
+  }
+  a img {
+    width: 20vw;
+    height: 8vw;  
+  }
+  
+  #close img{
+    width: 3vw;
+    height: 3vw;
+  }
+  
+  hr{
+    width: 42vw;
+    border: 2px solid orange; 
+    margin:35px;
+  }
+  
